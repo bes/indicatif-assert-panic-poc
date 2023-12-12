@@ -1,0 +1,10 @@
+[package]
+name = "indicatif-assert-panic-poc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.35.0", features = ["full"] }
+tracing = "0.1.40"
+indicatif = "0.17.7"
+tracing-subscriber = "0.3.18"
